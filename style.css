@@ -1,0 +1,23 @@
+.root {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+.root inventory-container ul{
+    padding:15px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border: 1px black solid;
+    border-radius: 5px;
+  }
+  
+
