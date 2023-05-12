@@ -126,7 +126,7 @@ const View = (() => {
     let todoTemp = "";
     todos.forEach((todo) => {
         const content = todo.content;
-        const liTemp = `<li todo-id="${todo.id}" todo-content="${todo.content}" > <span>${content}</span> <button class="delete-btn" >-</button><p class = "cartValue" id = "${todo.id}"> 0 </p> <button class="add-btn" >+</button> <button class="addTocart" >add to cart</button></li>`;
+        const liTemp = `<li todo-id="${todo.id}" todo-content="${todo.content}" > <span>${content}</span> <button class="delete-btn" >-</button><p class = "cartValue" id = "${todo.id}"> 1 </p> <button class="add-btn" >+</button> <button class="addTocart" >add to cart</button></li>`;
         todoTemp += liTemp;
 
     });
